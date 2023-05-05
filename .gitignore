@@ -1,0 +1,5 @@
+#Ignore the dog images
+/public/
+
+#Ignore my api key
+src/secrets.js
