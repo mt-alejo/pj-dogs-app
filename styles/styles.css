@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid white; */
 }
 
 body {
@@ -19,22 +20,34 @@ body {
 }
 
 .menu-container {
+  width: 30vw;
   display: flex;
-  gap: 5rem;
+  justify-content: space-around;
+}
+
+.menu-container li:hover {
+  background-color: rgb(26, 25, 25);
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
 .menu-container li {
+  border: 1px solid transparent;
   list-style: none;
+  padding: 0.7rem;
+  transition: 0.3s;
 }
 
 .menu-container li a {
   text-decoration: none;
+  font-size: 20px;
   color: azure;
 }
 
 /*Slides*/
 .slides-container {
-  margin: 3rem;
+  margin: 2rem;
   gap: 4rem;
   display: flex;
   justify-content: center;
@@ -49,4 +62,14 @@ body {
 .slide-secondary > img {
   width: 12rem;
   height: 7rem;
+}
+
+footer {
+  background-color: rgb(131, 74, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  top: calc(100% - 40px);
 }
