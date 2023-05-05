@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: azure;
+}
+
+/*Header*/
+
+.nav-container {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.menu-container li {
+  list-style: none;
+}
+
+.menu-container li a {
+  text-decoration: none;
+  color: azure;
+}
+
+/*Slides*/
+.slides-container {
+  margin: 3rem;
+  gap: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-primary > img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.slide-secondary > img {
+  width: 12rem;
+  height: 7rem;
+}
