@@ -65,6 +65,9 @@ body {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(131, 74, 0);
   position: absolute;
   bottom: 0;
