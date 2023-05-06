@@ -29,22 +29,28 @@
     <section>
       <div class="slides-container">
         <div class="slide-primary">
-          <img src="./public/img/dog-one.jpg" alt="dog" />
+          <img id="mainImage" src="./public/img/dog-one.jpg" alt="dog" />
           <div class="votation-container">
             <button type="button" class="btn-votation-up">UP</button>
             <button type="button" class="btn-votation-down">DOWN</button>
-            <button type="button" class="btn-votation-love">LOVE</button>
+            <button
+              type="button"
+              class="btn-votation-love"
+              onclick="updateImgUrl()"
+            >
+              LOVE
+            </button>
           </div>
         </div>
         <aside>
           <div class="slide-secondary">
-            <img src="./public/img/dog-two.jpg" alt="doge" />
+            <img id="secondaryOne" alt="doge" />
           </div>
           <div class="slide-secondary">
-            <img src="./public/img/dog-three.jpg" alt="doge" />
+            <img id="secondaryTwo" alt="doge" />
           </div>
           <div class="slide-secondary">
-            <img src="./public/img/dog-four.jpg" alt="doge" />
+            <img id="secondaryThree" alt="doge" />
           </div>
         </aside>
       </div>
